@@ -17,6 +17,7 @@ def primpal(szam):
             
 def main():
     szam = input("Adj meg egy számot!")
+
     print("A legkissebb palindrom prím: " + primpal(int(szam)))
 
 if __name__ == "__main__":
