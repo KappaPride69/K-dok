@@ -11,7 +11,7 @@ class Sphere:
         return 4 / 3 * math.pi * self.radius ** 3
     
     def __str__(self):
-        return f"Sphere with radius {self.radius}"
+        return f"Kör sugara {self.radius}"
     
     def __lt__(self, other):
         return self.radius < other.radius
@@ -39,7 +39,7 @@ class Ellipse:
         return 2 * math.pi * math.sqrt((a**2 + b**2) / 2)
     
     def __str__(self):
-        return f"Ellipse with major axis {self.major_axis} and minor axis {self.minor_axis}"
+        return f"Elipszis főtengelye {self.major_axis} és a kistengelye {self.minor_axis}"
 
 def main():
     Gömb = Sphere(5)
