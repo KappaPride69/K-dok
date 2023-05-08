@@ -22,7 +22,7 @@ def main():
     print(ser)
     find("reg","regularis")
     find("fda","alma")
-
+    find(r"[\w.]+@[\w]+","vmi jabba.laci@gmail.com vmi")
    
 
 if __name__ == "__main__":
